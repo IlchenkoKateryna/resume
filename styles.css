@@ -1,0 +1,266 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 38%;
+    background-color: #f0f0f0;
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.header-content h1 span {
+    display: block;
+}
+
+.header-content p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #555;
+    margin-top: 5px;
+}
+
+.header-divider {
+    border: none;
+    border-top: 2px solid #adadad;
+    width: 100%;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    margin-bottom: 20px;
+}
+
+.contact h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-item i {
+    font-size: 18px;
+    color: #000;
+    margin-right: 10px;
+}
+
+.fas.fa-map-marker-alt {
+    margin-right: 13px;
+    margin-left: 2px;
+}
+
+.fa-paper-plane:before {
+    margin-left: -2px;
+    margin-right: 2px;
+}
+
+.contact-item span {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.divider {
+    border: none;
+    border-top: 2px solid #adadad;
+    margin: 10px 0 20px 0;
+    width: 100%;
+}
+
+.sidebar section {
+    margin-bottom: 20px;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 14px;
+    border-bottom: none;
+}
+
+.sidebar p {
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar p i {
+    font-size: 16px;
+    color: #333;
+}
+
+.sidebar ul {
+    list-style-type: disc;
+    margin-left: 15px;
+    padding-left: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.sidebar ul li {
+    margin-bottom: 8px;
+    line-height: 2;
+    margin-left: 5px;
+    color: #333;
+    opacity: 0.8;
+}
+
+.sidebar p.role {
+    font-size: 18px;
+    margin-top: 20px;
+    letter-spacing: 0.1em;
+}
+
+.main-content {
+    max-width: 500px;
+    padding: 20px 40px 0 20px;
+    box-sizing: border-box;
+}
+
+.main-content h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 10px;
+    border-bottom: none;
+    padding-bottom: 5px;
+}
+
+.main-content h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.main-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.main-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.main-content ul li {
+    margin-bottom: 8px;
+}
+
+.main-content strong {
+    font-weight: bold;
+}
+
+.technical-expertise h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+}
+
+.technical-expertise .expertise-block {
+    word-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.technical-expertise strong {
+    font-weight: bold;
+    display: inline;
+}
+
+.experience h2 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+}
+
+.experience h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.communication h2 {
+    margin-bottom: 4px;
+}
+
+.communication strong {
+    margin-bottom: 4px;
+}
+
+.communication p {
+    word-spacing: 5px;
+    margin-top: 0;
+}
+
+.experience {
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: justify;
+    color: #333;
+}
+
+.experience strong {
+    font-weight: bold;
+    color: #000;
+}
+
+.experience br+br {
+    margin-bottom: 15px;
+    display: block;
+}
